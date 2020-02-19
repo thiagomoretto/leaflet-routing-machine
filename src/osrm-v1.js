@@ -179,7 +179,8 @@
 					summary: {
 						totalDistance: responseRoute.distance,
 						totalTime: responseRoute.duration
-					}
+					},
+					osrmResponse: responseRoute
 				},
 				legNames = [],
 				waypointIndices = [],
